@@ -32,6 +32,7 @@ def insert_data():
         name_field.delete(0, tk.END)
         phone_field.delete(0, tk.END)
         email_field.delete(0, tk.END)
+        display_data()
 
 # Delete Data
 def delete_data():
@@ -47,6 +48,7 @@ def delete_data():
         showinfo("Delete Status", "Data deleted Successfully")
         connection.close()
         id_field.delete(0, tk.END)
+        display_data()
 
 # Update Data
 def update_data():
@@ -69,6 +71,7 @@ def update_data():
         phone_field.delete(0, tk.END)
         email_field.delete(0, tk.END)
         id_field.delete(0, tk.END)
+        display_data()
 
 # Read Data
 def read_data():
