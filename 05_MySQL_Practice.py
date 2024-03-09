@@ -37,6 +37,7 @@ def main_frame_func(parent):
     global main_frame
     main_frame = ctk.CTkFrame(parent)
     main_frame.place(relx = 0.2, y = 0, relwidth = 0.8, relheight = 1)
+    home_page(main_frame)
     return main_frame
 
 def home_page(parent):
